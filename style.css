@@ -511,8 +511,11 @@ footer{
 }
 /* area de practica*/
 
+.imgF1{
+    padding: 5em 0em 0em 0em;
+}
 .imgF{
-    padding: 5em 0em 1em 0em;
+    padding: 2em 0em 1em 0em;
 }
 .copyright {
     color: white;
