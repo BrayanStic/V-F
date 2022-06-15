@@ -235,7 +235,9 @@ header{
     width: 100px;
     padding: 2em 0em;
     opacity: 0.5;
+    border-radius: 20px;
 }
+
 
 .productos li:hover .imgP{
     width: 120px;
@@ -396,7 +398,7 @@ header{
     font-size: 25px;
     color: #876f41;
     padding-bottom: 1em;
-    padding-top: 2em;
+    padding-top: 0.5em;
 }
 
 .texcontacto{
@@ -406,6 +408,7 @@ header{
 }
 
 .texcontactoE{
+    margin-bottom: 2em;
     color:whitesmoke;
     font-size: 20px;
     text-decoration: none;
@@ -415,8 +418,7 @@ header{
     transition: 1s all;
     cursor:pointer;
     padding: 10px;
-    box-shadow: 0px 4px 4px 0px rgba(148, 137, 50, 0.5);
-    
+    box-shadow: 0px 4px 4px 0px rgba(148, 137, 50, 0.5);   
 }
 
 .texcontactoE:hover{
@@ -488,7 +490,25 @@ footer{
         left: 1em;
     }
 }
-
+.bloqueCd{
+    padding-bottom: 3em;
+}
+.imgC{
+    width: 80px;
+    opacity: 0.4;
+    border-radius: 15px;
+}
+@media screen and (min-width: 1280px) {
+    .bloqueC1{
+        padding-top: 4em;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .bloqueCd{
+        width: 33%;
+    }
+}
 /* area de practica*/
 
 .imgF{
